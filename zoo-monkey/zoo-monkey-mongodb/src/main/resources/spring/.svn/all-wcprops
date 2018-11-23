@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/products/!svn/ver/13547/task/trunk/ds-task/ds-task-engineer/src/main/resources/spring
+END
+spring-svc-task.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/products/!svn/ver/13185/task/trunk/ds-task/ds-task-engineer/src/main/resources/spring/spring-svc-task.xml
+END
+spring-dal-task.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/products/!svn/ver/13547/task/trunk/ds-task/ds-task-engineer/src/main/resources/spring/spring-dal-task.xml
+END

@@ -1,0 +1,16 @@
+db.getCollection("Task").find({}).count()
+
+for(var i=1000001;i<2000000;i++){
+	
+	db.Task.insert({ID:"101"+i,Name:"任务"+i,CreateDate:"2018/11/22 16:55",Content:"现场查看"+i,Executor:[{ID:"1000"+i,Name:"张三"+i},{ID:"1001"+i,Name:"李四"+i},{ID:"1002"+i,Name:"王五"}]})
+	
+}
+
+
+
+db.Task.createIndex({"Executor.Name":1})
+
+db.Task.find({"Executor.Name":"张三228221"});
+
+
+db.Task.find({"Executor.Name":"张三"});
